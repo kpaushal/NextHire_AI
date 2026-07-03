@@ -30,7 +30,7 @@ const Logo = ({ className = "" }) => {
             {/* The Wordmark: Tracked & Gradient Masked */}
             <div className="flex flex-col">
                 <h1 className="text-xl font-heading font-bold tracking-[0.2em] text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50 leading-none">
-                    HIREMIND
+                    NEXTHIRE
                 </h1>
                 <div className="flex justify-between items-center w-full mt-1">
                     <div className="h-[1px] w-full bg-gradient-to-r from-white/40 to-transparent" />

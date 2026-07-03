@@ -29,7 +29,7 @@ const AnimatedLogo = () => {
 
             <div className="flex flex-col leading-none">
                 <span className="font-heading font-black text-3xl tracking-tighter text-foreground group-hover:text-primary transition-colors duration-300">
-                    HIREMIND
+                    NEXTHIRE
                 </span>
                 <span className="text-xs font-mono font-bold text-primary tracking-[0.4em] uppercase">
                     INTELLIGENCE
