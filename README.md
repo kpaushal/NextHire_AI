@@ -1,94 +1,467 @@
-<div align="center">
+# 🚀 NextHire AI
 
-# 🧠 HireMind AI
-### The Future of AI-Powered Career Ascension
-[Report Bug](https://github.com/AdityaChaudhary0002/Hiremind-Ai/issues) · [Request Feature](https://github.com/AdityaChaudhary0002/Hiremind-Ai/issues)
+> An AI-powered interview preparation platform designed to help candidates practice interviews, receive intelligent feedback, analyze performance, improve resumes, and track career preparation goals.
 
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![Clerk](https://img.shields.io/badge/Clerk-Auth-6C47FF?style=for-the-badge&logo=clerk&logoColor=white)
+🌐 **Live Demo:** https://next-hire-ai-green.vercel.app
 
-</div>
+---
 
-## 🚀 Overview
+## 📌 About the Project
 
-**HireMind AI** is not just an interview preparation tool; it's a **cybernetic training ground** for your career. Built with a futuristic, "Mission Control" aesthetic, it leverages state-of-the-art LLMs (Llama 3 via Groq) to simulate realistic technical and behavioral interviews.
+**NextHire AI** is a full-stack AI-powered interview preparation platform that simulates realistic technical and behavioral interviews.
 
-Whether you're a Recruit or a System Legend, HireMind AI adapts to your level, providing real-time feedback, strategic roadmaps, and gamified progression.
+The platform helps candidates prepare for job interviews through personalized interview questions, AI-generated follow-up questions, performance analytics, interview history, resume analysis, and goal tracking.
+
+The objective of NextHire AI is to create a complete AI-driven career preparation ecosystem where users can continuously practice, analyze weaknesses, and improve their interview performance.
 
 ---
 
 ## ✨ Key Features
 
-### 🎙️ AI Mock Interviews
-- **Dynamic Question Generation**: Tailored to your specific role (e.g., "Senior React Developer") and difficulty level.
-- **Audio-First Experience**: Speak your answers naturally. The AI listens, transcribes, and responds with synthesized voice.
-- **Real-time Feedback**: Instant analysis of your answers with scores for technical accuracy, communication, and confidence.
+### 🤖 AI-Powered Mock Interviews
+- Generate interview questions based on selected role and difficulty level
+- AI-powered follow-up questions
+- Personalized interview sessions
+- Technical and behavioral interview preparation
 
-### 🕹️ Mission Control (Goals System)
-- **Gamified Objectives**: Track your prep like a tactical operation. Set Daily, Weekly, and Milestone "Protocols."
-- **AI Strategy Generation**: Stuck on a goal? The AI generates a personalized execution plan and roadmap for you.
-- **Visual Analytics**: Monitor your "Velocity," "Streak," and "S.Y.N.C Rate" with stunning, animated charts.
+### 🎙️ Voice-Based Interview Practice
+- Voice recording support
+- Speech-based answer practice
+- Realistic interview experience
+- Webcam monitoring support
 
-### 📄 Resume Scanner & Analysis
-- **Deep Parsing**: Upload your resume (PDF) to extract skills, experience, and gaps.
-- **ATS Optimization**: Get actionable advice to beat Applicant Tracking Systems.
-- **Personalized Questions**: The AI generates questions *specifically* based on your resume's content.
+### 💻 Coding Interview Environment
+- Integrated code editor
+- Multiple programming language support
+- Code execution functionality
+- Technical interview preparation
 
-### 🏆 Leveling System
-- **XP & Ranks**: Earn XP for every interview and goal completed.
-- **Rank Progression**: Climb from "Recruit" to "System Legend" as you master your domain.
+### 📊 Intelligent Dashboard
+- Interview performance overview
+- Progress tracking
+- Performance analytics
+- Recent interview activity
+- Career preparation insights
+
+### 🧠 AI Feedback System
+- Interview answer evaluation
+- Personalized performance feedback
+- Strength and weakness identification
+- Improvement recommendations
+- Interview score analysis
+
+### 📄 AI Resume Scanner
+- Resume analysis
+- Resume text extraction
+- AI-powered resume feedback
+- Improvement suggestions
+- Interview preparation based on resume context
+
+### 🎯 Career Goal Tracking
+- Create preparation goals
+- Organize goals by category
+- Mark goals as completed
+- Set priority goals
+- Generate AI-powered preparation strategies
+
+### 📜 Interview History
+- View previous interview sessions
+- Analyze historical performance
+- Review interview feedback
+- Track improvement over time
+
+### 🔐 Secure Authentication
+- User authentication powered by Clerk
+- Protected dashboard routes
+- Secure API authentication
+- User-specific interview and goal data
+
+### 🌙 Modern User Experience
+- Responsive interface
+- Dark theme
+- Smooth page transitions
+- Interactive animations
+- Modern AI-focused UI
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React, TailwindCSS, Framer Motion, Lucide React
-- **Backend**: Node.js, Express
-- **Database**: MongoDB
-- **AI**: Groq (Llama 3), Google Gemini
-- **Auth**: Clerk
+### Frontend
 
-## 📦 Installation
+- React.js
+- Vite
+- JavaScript
+- Tailwind CSS
+- Framer Motion
+- React Router
+- Axios
+- Clerk Authentication
+- Recharts
+- Monaco Editor
+- React Three Fiber
+- Three.js
 
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/AdityaChaudhary0002/Hiremind-ai.git
-   ```
+### Backend
 
-2. **Install Dependencies**
-   ```bash
-   # Root
-   npm install
-   
-   # Server
-   cd server
-   npm install
-   
-   # Client
-   cd ../client
-   npm install
-   ```
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- REST APIs
+- Clerk Authentication Middleware
+- AI API integrations
 
-3. **Environment Setup**
-   Create `.env` in `client` and `server` directories with your keys (Clerk, MongoDB, Groq).
+### Development & Deployment
 
-4. **Run**
-   ```bash
-   # Terminal 1 (Server)
-   cd server && npm start
+- Git
+- GitHub
+- Vercel
+- Render
+- MongoDB Atlas
 
-   # Terminal 2 (Client)
-   cd client && npm run dev
-   ```
+---
 
-## 🛡️ Robustness
+## 🏗️ Project Architecture
 
-- **Validation**: Strict schema validation using Joi.
-- **Rate Limiting**: Protection against API abuse.
-- **Error Handling**: Centralized error management and fatal logging.
-- **Safe State**: Navigation guards preventing data loss during interviews.
-"# NextHire_AI" 
-" " 
+```text
+NextHire_AI/
+│
+├── client/                      # React + Vite frontend
+│   │
+│   ├── public/
+│   │
+│   ├── src/
+│   │   ├── components/          # Reusable UI components
+│   │   ├── hooks/               # Custom React hooks
+│   │   ├── layouts/             # Application layouts
+│   │   ├── lib/                 # Utility functions
+│   │   ├── pages/               # Application pages
+│   │   ├── services/            # API and service layer
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   │
+│   ├── package.json
+│   └── vite.config.js
+│
+├── server/                      # Node.js + Express backend
+│   │
+│   ├── src/
+│   │   ├── config/              # Database configuration
+│   │   ├── controllers/         # Business logic
+│   │   ├── middlewares/         # Authentication and validation
+│   │   ├── models/              # MongoDB models
+│   │   ├── routes/              # REST API routes
+│   │   ├── app.js
+│   │   └── server.js
+│   │
+│   └── package.json
+│
+├── README.md
+└── ProjectPlan.md
+```
+
+---
+
+## 🔄 Application Workflow
+
+```text
+User Registration / Login
+          │
+          ▼
+      Dashboard
+          │
+          ▼
+     Select Role
+          │
+          ▼
+   Choose Difficulty
+          │
+          ▼
+ AI Generates Questions
+          │
+          ▼
+   Interview Session
+          │
+          ▼
+ Submit User Answers
+          │
+          ▼
+    AI Evaluation
+          │
+          ▼
+ Performance Feedback
+          │
+          ▼
+ Analytics & History
+```
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have installed:
+
+- Node.js
+- npm
+- Git
+- MongoDB Atlas account
+- Clerk account
+- Required AI API credentials
+
+---
+
+## 📥 Clone the Repository
+
+```bash
+git clone https://github.com/kpaushal/NextHire_AI.git
+```
+
+Move into the project:
+
+```bash
+cd NextHire_AI
+```
+
+---
+
+## 💻 Frontend Setup
+
+Move to the client directory:
+
+```bash
+cd client
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Create a `.env` file:
+
+```env
+VITE_API_URL=http://localhost:5001
+VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+The frontend will run on the local URL displayed by Vite.
+
+---
+
+## ⚙️ Backend Setup
+
+Open another terminal and move to the server directory:
+
+```bash
+cd server
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Create your server environment file using the variables required by your backend configuration.
+
+Example:
+
+```env
+PORT=5001
+MONGO_URI=your_mongodb_connection_string
+
+CLERK_SECRET_KEY=your_clerk_secret_key
+
+GEMINI_API_KEY=your_gemini_api_key
+GROQ_API_KEY=your_groq_api_key
+
+CLIENT_URL=http://localhost:5173
+```
+
+> Use the exact environment-variable names expected by your server source code.
+
+Start the backend:
+
+```bash
+npm start
+```
+
+If the project does not define a start script, use:
+
+```bash
+node src/server.js
+```
+
+---
+
+## 🌐 Deployment
+
+### Frontend
+
+The frontend is deployed using Vercel.
+
+Production URL:
+
+```text
+https://next-hire-ai-green.vercel.app
+```
+
+Recommended configuration:
+
+```text
+Root Directory: client
+Framework: Vite
+Build Command: npm run build
+Output Directory: dist
+Install Command: npm install
+```
+
+Frontend production environment variables:
+
+```env
+VITE_API_URL=https://your-backend-url.onrender.com
+VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+```
+
+### Backend
+
+The backend can be deployed as a Render Web Service.
+
+Recommended configuration:
+
+```text
+Root Directory: server
+Build Command: npm install
+Start Command: npm start
+```
+
+---
+
+## 🔌 API Overview
+
+The application includes API functionality for:
+
+| Module | Functionality |
+| --- | --- |
+| Interview | Generate questions and submit interviews |
+| Follow-up | Generate contextual follow-up questions |
+| History | Retrieve previous interview sessions |
+| Intelligence | Retrieve interview performance insights |
+| Goals | Create, update, prioritize, and delete goals |
+| Strategy | Generate AI-powered goal strategies |
+| Resume | Analyze resume content |
+| Analytics | Track user performance data |
+
+---
+
+## 🔒 Security Features
+
+- Clerk-based authentication
+- Protected frontend routes
+- Bearer-token API authentication
+- Authentication middleware
+- Input validation middleware
+- API rate limiting
+- Centralized error handling
+- Environment-based secret management
+
+---
+
+## 📈 Future Improvements
+
+- Real-time AI voice interviewer
+- Advanced resume ATS scoring
+- Company-specific interview preparation
+- DSA progress tracking
+- Interview leaderboard
+- AI-generated career roadmap
+- Job recommendation engine
+- Interview scheduling
+- More detailed analytics
+- Recruiter interview simulation
+- Mobile application support
+
+---
+
+## 🎯 Project Vision
+
+The long-term goal of **NextHire AI** is to become a complete AI-powered career preparation platform that helps candidates move through the entire preparation journey:
+
+```text
+Resume Preparation
+        ↓
+Skill Assessment
+        ↓
+AI Mock Interviews
+        ↓
+Coding Practice
+        ↓
+Performance Analysis
+        ↓
+Personalized Improvement Plan
+        ↓
+Job Readiness
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions, suggestions, and feedback are welcome.
+
+1. Fork the repository
+2. Create a feature branch
+
+```bash
+git checkout -b feature/new-feature
+```
+
+3. Commit your changes
+
+```bash
+git commit -m "Add new feature"
+```
+
+4. Push your branch
+
+```bash
+git push origin feature/new-feature
+```
+
+5. Open a Pull Request
+
+---
+
+## 👨‍💻 Author
+
+**Paushal Kumar**
+
+Full Stack Developer focused on building modern web applications using the MERN stack and integrating AI-powered features into practical software products.
+
+---
+
+## ⭐ Support
+
+If you find this project useful, consider giving the repository a ⭐.
+
+Your support helps motivate continued development and improvement of **NextHire AI**.
+
+---
+
+<p align="center">
+  Built with ❤️ using React, Node.js, MongoDB and AI
+</p>
+
+<p align="center">
+  <strong>NextHire AI — Practice Smarter. Interview Better. Get Hired.</strong>
+</p>
