@@ -28,7 +28,7 @@ const AuthLayout = () => {
                             <BrainCircuit className="w-5 h-5 text-body" />
                         </div>
                         <span className="text-xl font-mono tracking-[0.2em] uppercase text-heading">
-                            NextHire
+                            NextHire 
                         </span>
                     </div>
 
